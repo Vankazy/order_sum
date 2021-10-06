@@ -1,0 +1,145 @@
+body{
+    background-color: lightcyan;
+    
+}
+
+.gum1{
+    border-radius: 10px;
+    width: 35vw;
+    
+    
+
+}
+
+
+.gum2{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    width: 35vw;
+    margin: 10%  auto;
+    
+    bottom: 5px;
+    
+}
+
+h1{
+    width: 60%;
+    margin-left: 33%;
+    margin-top: 5%;
+
+    
+
+
+}
+
+.gum3{
+    margin-top: 2%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 1em;
+    text-align: center;
+    
+}
+
+.best{
+    background-color: lightcyan;
+    display: grid;
+    width: 20vw;
+    margin: 0% auto;
+    grid-template-columns: 1fr 1fr 2fr;
+    height: 70px;
+    border-radius: 8px;
+
+}
+
+.vee{
+    width: 3vw;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.best1{
+    width: 6.7vw;
+    margin-top: 17px;
+    
+    
+}
+a{
+    text-align: right;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+
+.test{
+    background-color: blue;
+    width: 65%;
+    margin-left: 20%;
+    margin-top: 5%;
+    color: white;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+
+.testy{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+
+@media (max-width:1440px) { 
+
+}
+@media (max-width:1025px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (max-width:725px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (max-width:425px)  {  
+    .gum2{
+        width: 100vw;
+        margin: 11%  auto;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    .gum1{
+        width: 100vw;
+        margin-bottom: 28px;  
+    }
+
+    h1{
+        width: 50vw;
+        text-align: center;
+        margin-left: 25vw;
+    }
+
+    .best{
+        width: 100vw;
+       
+
+
+    }
+    .best1{
+        width: 30vw;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 30px;
+        
+    }
+
+    a{
+        margin-right: 20px;
+    }
+    .vee{
+
+        width: 10vw;
+
+    }
+
+    .testy{
+        width: 50vw;
+    }
+ }
+@media (max-width:375px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
